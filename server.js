@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-const MONGODB_URI = 'mongodb+srv://Israel:Israelbtmsf1@cluster0.cbklp.mongodb.net/Health-app?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://nebiyusami:Icelabun1092@@cluster0.rkivhla.mongodb.net/admin?appName=Cluster0';
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
